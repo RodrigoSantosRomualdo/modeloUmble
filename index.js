@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const handlebars = require('express-handlebars')
-const SpeedApi = require("./service/SpeedApi")
+const SpeedApi = require("./service/speedApi")
 
 
 // Config
