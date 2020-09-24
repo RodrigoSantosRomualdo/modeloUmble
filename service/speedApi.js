@@ -11,3 +11,12 @@ const functionSpeed = () => {
 
 
 module.exports = functionSpeed
+
+
+
+
+
+
+
+
+

@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const handlebars = require('express-handlebars')
-const SpeedApi = require("./service/speedApi")
+const speedapi = require("./service/speedapi")
 
 
 // Config
@@ -28,7 +28,7 @@ app.get("/", function(req, res) {
 
 app.post('/', function(req, res) {
   
-  var dados = SpeedApi()
+  var dados = speedapi()
   dados.then(dadorecebido => {
     console.log(dadorecebido)
     dadosApi = JSON.stringify(dadorecebido);
